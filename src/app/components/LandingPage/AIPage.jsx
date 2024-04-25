@@ -6,7 +6,7 @@ const AIPage = () => {
     return (
     <div className='bg-bluebg h-100vh p-8'>
           <div className='flex flex-col md:flex-row justify-between p-0 md:p-12'>
-              <h1 className='text-2xl md:text-5xl font-semibold md:font-medium md:w-2/4 font-sans' style={{lineHeight:"4rem"}}>Discover an Extensive Range of AI Models to Explore</h1>
+              <h1 className='text-2xl md:text-5xl font-semibold md:font-medium md:w-2/4 font-sans leading-10 md:mb-0 mb-4'>Discover an Extensive Range of AI Models to Explore</h1>
               <Button title="Get Started"/>            
         </div>
         

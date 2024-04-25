@@ -40,11 +40,15 @@ body {
 
 
 .responsiveHeading {
-  /* Default styles can go here */
 }
+
+
 
 @media (min-width: 768px) { /* Assuming 768px is your breakpoint for 'md' screens */
   .responsiveHeading {
     line-height: 4rem;
   }
+
 }
+
+

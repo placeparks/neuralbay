@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react"
 import { cn } from "../../../../utils/cn"
 
 export const BackgroundGradientAnimation = ({
+ 
   gradientBackgroundStart = "rgb(247, 187, 124)",
   gradientBackgroundEnd = "rgb(0, 17, 82)",
   firstColor = "187, 220, 255",
@@ -23,6 +24,23 @@ export const BackgroundGradientAnimation = ({
   const [curY, setCurY] = useState(0)
   const [tgX, setTgX] = useState(0)
   const [tgY, setTgY] = useState(0)
+  const [style, setStyle] = useState({ height: '130vh', width: 'auto' });
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth < 768) {  
+        setStyle({ height: '100vh', width: 'auto' }); 
+      } else {
+        setStyle({ height: '130vh', width: 'auto' });  
+      }
+    }
+
+    window.addEventListener('resize', handleResize);
+    handleResize();  
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   useEffect(() => {
     document.body.style.setProperty(
       "--gradient-background-start",
@@ -71,9 +89,9 @@ export const BackgroundGradientAnimation = ({
 
   return (
     <div
-      style={{height:"130vh", width:"auto"}}
+      style={style}
       className={cn(
-        "h-screen w-screen relative overflow-hidden top-0 left-0 bg-rgba(255, 255, 255, 1)",
+        "mainScreen h-screen w-screen relative overflow-hidden top-0 left-0 bg-rgba(255, 255, 255, 1)",
         containerClassName
       )}
     >

@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 const Features = () => {
     return (
-      <div className='pb-20'>
-      <div className='flex flex-col items-center justify-center font-sans mt-32'>
+      <div className='md:pb-20 pb-12 pt-8 md:pt-0'>
+      <div className='flex flex-col items-center justify-center font-sans mt-0 md:mt-32'>
           <h1 className='font-bold text-3xl md:text-5xl'>Our Powerful Features</h1>
-          <p className='mt-4 w-3/5 text-center'>Our Web 3 AI Model Marketplace is your one-stop destination for accessing, testing, and purchasing a wide range of AI models developed by talented AI engineers from around the world. </p>
+          <p className='mt-4 w-full md:w-3/5 text-center'>Our Web 3 AI Model Marketplace is your one-stop destination for accessing, testing, and purchasing a wide range of AI models developed by talented AI engineers from around the world. </p>
             </div>
 
-            <div className='flex flex-col md:flex-row items-center justify-center gap-8 mt-20'>
+            <div className='flex flex-col md:flex-row items-center justify-center gap-8 mt-20 md:p-0 p-4'>
                 <div className='flex flex-col items-left justift-start gap-8'>
                     
                     {/*card 1*/}

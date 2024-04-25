@@ -27,7 +27,7 @@ const Cards = () => {
           <Image width={500} height={500} className="object-cover w-full rounded-t-lg  md:rounded-none md:rounded-s-lg" src="/assets/Frame3.png" alt="" />
     <div className="flex flex-col justify-between p-4 w-full md:w-3/5">
         <h5 className="mb-2  text-2xl md:text-4xl font-semibold tracking-tight text-gray-900 dark:text-white leading-10">Collaborate and Seek Expert Guidance</h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Join our thriving community of AI enthusiasts and experts to engage in discussions, seek advice, and collaborate with like-minded individuals. Tap into shared knowledge and collective wisdom to enhance your understanding of AI models and their applications. Neuralbay is more than just a marketplace – it's a vibrant community driving innovation.</p>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Join our thriving community of AI enthusiasts and experts to engage in discussions, seek advice, and collaborate with like-minded individuals. Tap into shared knowledge and collective wisdom to enhance your understanding of AI models and their applications. Neuralbay is more than just a marketplace – it&apos;s a vibrant community driving innovation.</p>
     </div>
           </a>
           

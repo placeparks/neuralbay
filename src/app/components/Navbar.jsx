@@ -30,7 +30,7 @@ const Navbar = () => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <Image src="/assets/logos.png" width={35} height={35} alt="Logo" />
-            <span className="self-center text-1xl font-semibold whitespace-nowrap dark:text-white font-sans">
+            <span className="text-black-600 self-center text-1xl font-semibold whitespace-nowrap dark:text-white font-sans">
               Neuralbay
             </span>
           </a>

@@ -12,7 +12,7 @@ const AccordionItem = ({ question, answer }) => {
     <>
       <h2 className="mb-4 border border-black-300 rounded-lg">
         <button
-          className="flex items-center justify-between w-full p-5 text black text-left font-medium "
+          className="flex items-center text-black-600 justify-between w-full p-5 text-left font-medium "
           onClick={toggleAccordion}
         >
           {question}
@@ -41,7 +41,7 @@ const Questions = () => {
   return (
     <div className="container my-24 mx-auto px-6 xl:px-24">
       <section className="mb-32">
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center text-black-600">
           <h2 className="mb-6 text-3xl font-bold">
             Frequently asked questions
           </h2>

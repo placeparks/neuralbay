@@ -15,7 +15,7 @@ const Footer = () => {
                 alt="Logo"
                 className=""
               />
-              <span className="self-center pl-2 text-1xl font-semibold whitespace-nowrap dark:text-white font-sans">
+              <span className="self-center text-black-600 pl-2 text-1xl font-semibold whitespace-nowrap dark:text-white font-sans">
                 Neuralbay
               </span>
             </a>

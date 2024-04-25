@@ -33,11 +33,11 @@ const Features = () => {
               </p>
             </div>
             <Image
-              className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+              className="object-cover w-full rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
               src="/assets/card1.png"
               alt=""
-              width={500}
-              height={500}
+              width={350}
+              height={350}
             />
           </a>
 

@@ -14,10 +14,10 @@ const Portfolio = () => {
             alt="text"
             className="pb-4"
           />
-          <h1 className="text-2xl md:text-4xl font-bold pb-4 w-full md:w-2/4">
+          <h1 className="text-2xl text-black-600 md:text-4xl font-bold pb-4 w-full md:w-2/4">
             Showcase and Monetize Your AI Models
           </h1>
-          <p className="pb-4 w-full md:w-96">
+          <p className="pb-4 text-black-600 w-full md:w-96">
             Attention, AI engineers! Neuralbay offers a platform to showcase and
             sell your AI models to a global audience.
           </p>

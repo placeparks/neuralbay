@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+
+    font-family: sans-serif;
+}
+
+#navbar-dropdown {
+  position: relative; 
+}
+
+#dropdownNavbar {
+  position: absolute;
+  top: 100%; 
+  left: 0; 
+}
+
+
+.auto-resize-image {
+  width: 100%; 
+  height: auto;
+}
+
+
+.responsiveHeading {
+  /* Default styles can go here */
+}
+
+@media (min-width: 768px) { /* Assuming 768px is your breakpoint for 'md' screens */
+  .responsiveHeading {
+    line-height: 4rem;
+  }
+}

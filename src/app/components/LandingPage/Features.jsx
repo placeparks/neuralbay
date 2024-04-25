@@ -5,10 +5,10 @@ const Features = () => {
   return (
     <div className="md:pb-20 pb-12 pt-8 md:pt-0">
       <div className="flex flex-col items-center justify-center font-sans mt-0 md:mt-32">
-        <h1 className="font-bold text-3xl md:text-5xl">
+        <h1 className="font-bold text-black text-3xl md:text-5xl">
           Our Powerful Features
         </h1>
-        <p className="mt-4 w-full md:w-3/5 text-center">
+        <p className="mt-4 w-full md:w-3/5 text-black text-center">
           Our Web 3 AI Model Marketplace is your one-stop destination for
           accessing, testing, and purchasing a wide range of AI models developed
           by talented AI engineers from around the world.{" "}

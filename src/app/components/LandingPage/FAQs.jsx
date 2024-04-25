@@ -12,7 +12,7 @@ const AccordionItem = ({ question, answer }) => {
     <>
       <h2 className="mb-4 border border-black-300 rounded-lg">
         <button
-          className="flex items-center justify-between w-full p-5 text-left font-medium "
+          className="flex items-center justify-between w-full p-5 text black text-left font-medium "
           onClick={toggleAccordion}
         >
           {question}
@@ -32,7 +32,7 @@ const AccordionItem = ({ question, answer }) => {
           </svg>
         </button>
       </h2>
-      <div className={`p-5 ${isOpen ? "block" : "hidden"}`}>{answer}</div>
+      <div className={`p-5 text-black ${isOpen ? "block" : "hidden"}`}>{answer}</div>
     </>
   );
 };
